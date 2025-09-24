@@ -27,7 +27,19 @@ This project demonstrates full-stack development with CRUD operations, connectin
 
 
 
-mern-task/ ├─ server/               # Backend (Express + MongoDB) │  ├─ models/Task.js     # Mongoose schema │  ├─ routes/tasks.js    # Task API routes │  ├─ server.js          # Main server file │  └─ .env               # Environment variables └─ client/               # Frontend (React) ├─ src/components/    # React components (TaskForm, TaskList, TaskItem) └─ src/App.js         # Main React app
+mern-task/ 
+├─ server/               # Backend (Express + MongoDB)
+│  
+├─ models/Task.js     # Mongoose schema 
+│ 
+├─ routes/tasks.js    # Task API routes
+│ 
+├─ server.js          # Main server file 
+│  
+└─ .env               # Environment variables 
+└─ client/               # Frontend (React)
+├─ src/components/    # React components (TaskForm, TaskList, TaskItem) 
+└─ src/App.js         # Main React app
 
 
 📌 API Endpoints
@@ -41,14 +53,3 @@ DELETE	/api/tasks/:id	Delete a task
 
 
 
----
-
-🎯 Future Improvements
-
-🔐 User authentication (JWT login/signup)
-
-🎨 Better UI with Material-UI or Tailwind
-
-📱 Responsive design for mobile
-
-🌍 Deploy backend to Render/Heroku and frontend to Vercel/Netlify
