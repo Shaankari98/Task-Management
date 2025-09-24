@@ -46,9 +46,15 @@ mern-task/
 
 └─ .env               # Environment variables 
 
+│ 
+
 └─ client/               # Frontend (React)
 
+│ 
+
 ├─ src/components/    # React components (TaskForm, TaskList, TaskItem) 
+
+│ 
 
 └─ src/App.js         # Main React app
 
