@@ -29,16 +29,27 @@ This project demonstrates full-stack development with CRUD operations, connectin
 
 mern-task/ 
 ├─ server/               # Backend (Express + MongoDB)
+
 │  
+
 ├─ models/Task.js     # Mongoose schema 
+
 │ 
+
 ├─ routes/tasks.js    # Task API routes
+
 │ 
+
 ├─ server.js          # Main server file 
+
 │  
+
 └─ .env               # Environment variables 
+
 └─ client/               # Frontend (React)
+
 ├─ src/components/    # React components (TaskForm, TaskList, TaskItem) 
+
 └─ src/App.js         # Main React app
 
 
